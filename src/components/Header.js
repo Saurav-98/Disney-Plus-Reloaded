@@ -51,19 +51,23 @@ const DisneyLogo = styled.img`
   margin-bottom: 0.5rem;
   margin-right: 2rem;
 `;
+
 const NavMenu = styled.nav`
   display: flex;
   margin-right: auto;
   flex: 1;
+
   a {
     display: flex;
     align-items: flex-start;
     margin-inline: 0.5rem;
     cursor: pointer;
+
     img {
       height: 20px;
       margin-right: 0.2rem;
     }
+
     span {
       font-size: 0.8rem;
       position: relative;
@@ -91,6 +95,7 @@ const NavMenu = styled.nav`
     }
   }
 `;
+
 const UserProfile = styled.img`
   width: 48px;
   height: 48px;

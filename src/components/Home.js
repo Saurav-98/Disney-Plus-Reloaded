@@ -1,11 +1,28 @@
 import React from "react";
+import styled from "styled-components";
+import ImageSlider from "./ImageSlider";
 
 const Home = () => {
   return (
-    <div>
-      <h2>This would be entire Home Page</h2>
-    </div>
+    <MainContainer>
+      <ImageSlider />
+    </MainContainer>
   );
 };
 
 export default Home;
+
+const MainContainer = styled.main`
+  min-height: calc(100vh - 70px);
+  padding: 0 calc(3.5vw + 5px);
+  position: relative;
+
+  &::before {
+    content: "";
+    background: url("./images/home-background.png") center center/cover
+      no-repeat fixed;
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+  }
+`;
