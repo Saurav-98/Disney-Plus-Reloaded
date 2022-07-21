@@ -21,6 +21,9 @@ const ImageSlider = () => {
         <img src="./images/slider-badging.jpg" alt="slider 1" />
       </Wrap>
       <Wrap>
+        <img src="./images/slider-thor.jpg" alt="slider 1" />
+      </Wrap>
+      <Wrap>
         <img src="./images/slider-badag.jpg" alt="slider 1" />
       </Wrap>
 
